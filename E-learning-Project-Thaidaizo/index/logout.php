@@ -1,0 +1,9 @@
+<?php
+	session_start();
+	unset($_SESSION['UserID_OT']);
+	unset($_SESSION['Authorize_OT']);
+	unset($_SESSION['Status_OT']);
+	//session_unregister('UserID');
+	//session_destroy();
+	header("location:index.php");
+?>
