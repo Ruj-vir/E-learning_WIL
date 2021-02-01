@@ -28,3 +28,9 @@
 4.5ไฟล์ save_verify_list.php อยู่ใน folder(./save/save_verify_list.php) 
     ตรง คำ include_once "../email/mail_sendverify_list_training.php";
      บรรทัด 83
+
+5. รุจแก้ ตรง Home.php เรื่องตัวเลข Column ที่อยากให้ดูสวย
+ <!-- เลขตอนแรกเป็น3 เอาร่วมกับข้างล่างให้ได้ 12 <div class="col-lg-3 col-sm-4 mb-4"> -->
+บรรทัด ที่ 11
+ <!-- เลขตอนแรกเป็น9 เอาร่วมกับข้างบนให้ได้ 12<div class="col-lg-9 col-sm-4 mb-4"> -->
+บรรทัด ที่ 24
