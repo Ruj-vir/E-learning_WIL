@@ -17,8 +17,8 @@
 	dbo.cPosition AS Posi ON Emp.sEmpPosTitle = Posi.sCode INNER JOIN
 	dbo.cOrgLevel AS Sec ON Emp.sEmpOrgLevel3 = Sec.sCode3
 	WHERE (Emp.sEmpID = '$SesUserID') ";
-    $OfficeQuery = sqlsrv_query($connHR, $OfficeSql);
-	$OfficeResult = sqlsrv_fetch_array($OfficeQuery, SQLSRV_FETCH_ASSOC);
+    // $OfficeQuery = sqlsrv_query($connHR, $OfficeSql);
+	// $OfficeResult = sqlsrv_fetch_array($OfficeQuery, SQLSRV_FETCH_ASSOC);
 
 
 ?>

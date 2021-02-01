@@ -8,7 +8,8 @@
       <!-- <h4 class="mb-5 text-uppercase">Emergency</h4> -->
     		<!-- All Program target="_blank"  -->
     		<div class="row text-center">
-			  <div class="col-lg-3 col-sm-4 mb-4">
+			  <!-- เลขตอนแรกเป็น3 เอาร่วมกับข้างล่างให้ได้ 12 <div class="col-lg-3 col-sm-4 mb-4"> -->
+			  <div class="col-lg-6 col-sm-4 mb-4">
 				<div class="wrimagecard wrimagecard-topimage">
 				  <a href="../pr_covid19">
 				  <div class="wrimagecard-topimage_header" style="background-color:rgba(248, 249, 250, 0.1) ">
@@ -20,7 +21,8 @@
 				  </a>
 				 </div>
     		   </div>
-			    <div class="col-lg-9 col-sm-4 mb-4">
+			    <!-- เลขตอนแรกเป็น9 เอาร่วมกับข้างบนให้ได้ 12<div class="col-lg-9 col-sm-4 mb-4"> -->
+			    <div class="col-lg-6 col-sm-4 mb-4">
     			   <div class="embed-responsive embed-responsive-4by3 rounded shadow-lg">
     				  <iframe class="embed-responsive-item" src="https://multimedia.scmp.com/widgets/china/wuhanvirus/"></iframe>
     			   </div>
@@ -37,7 +39,7 @@
 		<!-- All Program -->
 		<div class="row text-center text-lg-left">
 		
-		  <div class="col-lg-3 col-md-4 col-6 mb-4">
+		  <!-- <div class="col-lg-3 col-md-4 col-6 mb-4">
 			<div class="wrimagecard wrimagecard-topimage">
 			  <a href="../e_roombooking">
 				<div class="wrimagecard-topimage_header" style="background-color:rgba(248, 249, 250, 0.1) ">
@@ -101,16 +103,16 @@
 				</div>
 			  </a>
 			</div>
-		  </div> 
+		  </div>  -->
 
 		  <div class="col-lg-3 col-md-4 col-6 mb-4">
 			<div class="wrimagecard wrimagecard-topimage">
-			  <a href="../e_leave">
+			  <a href="../e_learning-Phase1-Requestment">
 				<div class="wrimagecard-topimage_header" style="background-color:rgba(248, 249, 250, 0.1) ">
 				  <center><img class="img-fluid ani-icons" src="../img/icon/index/requestCP.png"  alt="Image"></center>
 				</div>
 				<div class="wrimagecard-topimage_title text-center text-truncate">
-				  <h4>E-Leave</h4>
+				  <h4>E-Learning-Phase1</h4>
 				</div>
 			  </a>
 			</div>
@@ -118,18 +120,31 @@
 
 		  <div class="col-lg-3 col-md-4 col-6 mb-4">
 			<div class="wrimagecard wrimagecard-topimage">
-			  <a href="../e_slip">
+			  <a href="../e_learning-Phase2-PlaningPlan">
 				<div class="wrimagecard-topimage_header" style="background-color:rgba(248, 249, 250, 0.1) ">
 				  <center><img class="img-fluid ani-icons" src="../img/icon/index/eslip.png"  alt="Image"></center>
 				</div>
 				<div class="wrimagecard-topimage_title text-center text-truncate">
-				  <h4>E-Slip</h4>
+				  <h4>E-Learning-Phase2</h4>
 				</div>
 			  </a>
 			</div>
 		  </div> 
 
 		  <div class="col-lg-3 col-md-4 col-6 mb-4">
+			<div class="wrimagecard wrimagecard-topimage">
+			  <a href="../phase1-P'Chet-Example">
+				<div class="wrimagecard-topimage_header" style="background-color:rgba(248, 249, 250, 0.1) ">
+				  <center><img class="img-fluid ani-icons" src="../img/icon/index/requestSH.png"  alt="Image"></center>
+				</div>
+				<div class="wrimagecard-topimage_title text-center text-truncate">
+				  <h4>Example-Code-Phase1</h4>
+				</div>
+			  </a>
+			</div>
+		  </div>  
+
+		  <!-- <div class="col-lg-3 col-md-4 col-6 mb-4">
 			<div class="wrimagecard wrimagecard-topimage">
 			  <a href="../e_qlo">
 				<div class="wrimagecard-topimage_header" style="background-color:rgba(248, 249, 250, 0.1) ">
@@ -153,47 +168,7 @@
 				</div>
 			  </a>
 			</div>
-		  </div> 
-
-		  <div class="col-lg-3 col-md-4 col-6 mb-4">
-			<div class="wrimagecard wrimagecard-topimage">
-			  <a href="../e_learning">
-				<div class="wrimagecard-topimage_header" style="background-color:rgba(248, 249, 250, 0.1) ">
-				  <center><img class="img-fluid ani-icons" src="../img/icon/index/office.png"  alt="Image"></center>
-				</div>
-				<div class="wrimagecard-topimage_title text-center text-truncate">
-				  <h4>E-Learning</h4>
-				</div>
-			  </a>
-			</div>
-		  </div>
-
-		  <div class="col-lg-3 col-md-4 col-6 mb-4">
-			<div class="wrimagecard wrimagecard-topimage">
-			  <a href="../e_planing-plan">
-				<div class="wrimagecard-topimage_header" style="background-color:rgba(248, 249, 250, 0.1) ">
-				  <center><img class="img-fluid ani-icons" src="../img/icon/index/pbook.png"  alt="Image"></center>
-				</div>
-				<div class="wrimagecard-topimage_title text-center text-truncate">
-				  <h4>Planing-Plan</h4>
-				</div>
-			  </a>
-			</div>
-		  </div>
-
-		  <div class="col-lg-3 col-md-4 col-6 mb-4">
-			<div class="wrimagecard wrimagecard-topimage">
-			  <a href="../Phase1">
-				<div class="wrimagecard-topimage_header" style="background-color:rgba(248, 249, 250, 0.1) ">
-				  <center><img class="img-fluid ani-icons" src="../img/icon/index/pbook.png"  alt="Image"></center>
-				</div>
-				<div class="wrimagecard-topimage_title text-center text-truncate">
-				  <h4>Phase1</h4>
-				</div>
-			  </a>
-			</div>
-		  </div>   
-
+		  </div>  -->
 		</div>
 		<!-- /.row -->
 
