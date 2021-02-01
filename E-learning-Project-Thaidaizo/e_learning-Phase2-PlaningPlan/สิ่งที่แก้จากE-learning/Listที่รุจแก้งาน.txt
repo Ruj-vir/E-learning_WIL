@@ -1,0 +1,30 @@
+พอ Login เสร็จไป หน้า index e_planing ทันที่ คือ ไฟล์ ้header_login.php และ ไฟล์ ้footer_login.php 
+ตรง Function ShowResult setTimeout
+อยู่ใน folder(./index/templates/header_login.php)
+
+
+1. แก้ไฟล์ ชื่อ Profile_user.php
+2. ที่ไฟล์ alert_User.php แก้จาก รหัส 30134พนักงาน เป็น 3490 อยู่ใน folder(./e_planing-plan/alert)
+
+การแก้ MS sql server : tool -> option , option -> Designers 
+-> Table and database Designers -> Check out -> prevent saving change that request table
+
+3. training_report_application_detail.php ไฟล์  นี้ แก้ ตัว MPDF ที่ แสดงชื่อ คนที่ แอดเข้าไป ผิด
+ประมาณ บรรทัด 240
+
+4. แก้ไฟล์ งานหาก ว่า เมล มันส่งไม่ได้ต้องใช้ อีกวิธีสลับกันไป 
+4.1ไฟล์ save_request_training.php อยู่ใน folder(./save/save_request_training.php) 
+    ตรง คำ include_once "../email/mail_send_request_training.php";
+     บรรทัด 171
+4.2ไฟล์ save_check_group.php อยู่ใน folder(./save/save_check_group.php) 
+    ตรง คำ include_once "../email/mail_sendcheck_group_training.php";
+     บรรทัด 83
+4.3ไฟล์ save_check_list.php อยู่ใน folder(./save/save_check_list.php) 
+    ตรง คำ  include_once "../email/mail_sendcheck_list_training.php";
+     บรรทัด 84
+4.4ไฟล์ save_verify_group.php อยู่ใน folder(./save/save_verify_group.php) 
+    ตรง คำ include_once "../email/mail_sendverify_group_training.php";
+     บรรทัด 84
+4.5ไฟล์ save_verify_list.php อยู่ใน folder(./save/save_verify_list.php) 
+    ตรง คำ include_once "../email/mail_sendverify_list_training.php";
+     บรรทัด 83
